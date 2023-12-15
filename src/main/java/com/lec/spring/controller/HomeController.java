@@ -22,7 +22,7 @@ public class HomeController {
         } else if (num == 0){
             log.warn("["+ envInfo + "] /aws/v2 warn로그 ##################################");
         }
-        return "<h1>조재환 v2</h1>";
+        return "<h1>권희수 v2</h1>";
     }
 }
 
