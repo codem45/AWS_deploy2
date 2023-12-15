@@ -22,7 +22,7 @@ class HomeControllerTest {
     void hello(){
         System.out.println("port: " + port);
         ResponseEntity<String> response = restTemplate.getForEntity("/aws/v2", String.class);
-        assertEquals("<h1>권희수 v2</h1>", response.getBody());
+        assertEquals("<h1>송민호 v2</h1>", response.getBody());
     }
 
 }
